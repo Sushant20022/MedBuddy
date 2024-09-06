@@ -28,4 +28,4 @@ MedBuddy is a machine learning-based web application designed to provide recomme
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Make sure to follow the coding standards and write tests for new features.
 
 **UI of Web App**
-![imagegoeshere](Templates\UI.png)
+![imagegoeshere](Templates/UI.png)

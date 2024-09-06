@@ -8,16 +8,16 @@ app = Flask(__name__)
 
 
 
-sym_des = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\Datasets\symptoms_df.csv")
-precautions = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\Datasets\precautions_df.csv")
-workout = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\Datasets\workout_df.csv")
-description = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\Datasets\description.csv")
-medications = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\Datasets\medications.csv")
-diets = pd.read_csv("Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\Datasets\diets.csv")
+sym_des = pd.read_csv("Datasets\symptoms_df.csv")
+precautions = pd.read_csv("Datasets\precautions_df.csv")
+workout = pd.read_csv("Datasets\workout_df.csv")
+description = pd.read_csv("Datasets\description.csv")
+medications = pd.read_csv("Datasets\medications.csv")
+diets = pd.read_csv("Datasets\diets.csv")
 
 
 #Model Loading
-svc = pickle.load(open('Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\svc.pkl','rb'))
+svc = pickle.load(open('svc.pkl','rb'))
 
 
 

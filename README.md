@@ -1,16 +1,28 @@
-# Personalized-Medical-Recommendation-System-with-Machine-Learning
-Welcome to our cutting-edge Personalized Medical Recommendation System, a powerful platform designed to assist users in understanding and managing their health. Leveraging the capabilities of machine learning, our system analyzes user-input symptoms to predict potential diseases accurately. Here's what sets our system apart:
+# MedBuddy-Health Care Center
 
-User-Friendly Interface: Our intuitive interface allows users to input their symptoms effortlessly, creating a seamless user experience.
+## Overview
 
-Advanced Machine Learning Models: We've integrated state-of-the-art machine learning models that accurately predict diseases based on input symptoms, ensuring reliable and precise results.
+MedBuddy is a machine learning-based web application designed to provide recommendations on diet, workout, precautions, and medications based on user symptoms. Users can input their symptoms, and the application will analyze them to provide useful health-related suggestions.
 
-Tailored Recommendations: Receive personalized recommendations for the top 5 medicines, prescription details, and even workout routines based on the predicted disease.
+## Features
 
-Flask App Integration: The entire system is powered by a Flask web application, making it easily accessible to users. Experience the convenience of accessing healthcare recommendations from anywhere.
+- **Symptom Input:** Users can enter their symptoms to get personalized recommendations.
+- **Recommendations:** The application provides recommendations on:
+  - Diet
+  - Workouts
+  - Precautions
+  - Medications
+- **Results Display:** Results are displayed directly on the page.
 
-Privacy and Security: We prioritize user privacy and data security. Your health information is handled with the utmost confidentiality, adhering to the highest industry standards.
+## Technologies Used
 
-Continuous Improvement: Our system is designed for continuous improvement. As we gather more data, the machine learning models evolve, providing increasingly accurate and relevant recommendations.
+- **Frontend:**
+  - HTML
+  - CSS
 
-Take charge of your health with our Personalized Medical Recommendation System. Your well-being is our priority, and we're dedicated to providing you with the tools and insights you need for a healthier, happier life.
+- **Backend:**
+  - Flask (Python web framework)
+  - Scikit-Learn or other ML libraries for predictive analysis
+
+Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Make sure to follow the coding standards and write tests for new features.
